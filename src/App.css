@@ -1,0 +1,201 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo
+{
+  width: 65px;
+  height: 55px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.header
+{
+  display: flex;
+  justify-content: space-between;
+}
+.menu
+{
+  display: flex;
+}
+.menu>p
+{
+  padding-right: 15px;
+  font-weight: 700;
+  padding-top: 25px;
+}
+.menu>p:hover
+{
+  color: rgb(255, 152, 0);
+  cursor: pointer;
+}
+.support
+{
+  padding: 0px 15px;
+  margin-top: 15px;
+  background-color: white;
+  border: 1px solid  rgb(255, 152, 0);
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.support:hover
+{
+  background-color: rgb(255, 152, 0);
+  color: white;
+  cursor: pointer;
+}
+.title
+{
+  font-size: 82px;
+  text-align: center;
+  font-weight: 900;
+  color: #202329;
+  padding: 30px 0px;
+}
+.black
+{
+  background-color: #272B33;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding: 60px 50px;
+}
+.flex
+{
+  background-color: #3C3E44;
+  display: flex;
+  margin: 15px;
+  border-radius: 15px;
+  color: white;  
+}
+.item
+{
+  display: flex;
+}
+.name
+{
+  margin: 0px !important;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 900;
+}
+.name:hover
+{
+  color: rgb(255, 152, 0);
+  cursor: pointer;
+}
+.point
+{
+  display: flex;
+  padding-top: 2px;
+}
+.round
+{
+  height: 8px;
+  width: 8px;
+  background-color: #b6b6b6;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-right: 6px;
+}
+img
+{
+  height: 180px;
+  width: 200px;
+  margin-right: 10px;
+  border-radius: 10px 0px 0px 10px;
+}
+.status
+{
+  font-size: 12px;
+  margin: 0;
+}
+.location
+{
+  color: #b6b6b6;
+  margin: 0px !important;
+  padding-top: 10px;
+  font-size: 13px;
+}
+.loc_name
+{
+  margin: 0px !important;
+  font-size: 14px;
+  padding-top: 2px;
+}
+.loc_name:hover
+{
+  color: rgb(255, 152, 0);
+  cursor: pointer;
+}
+.dark
+{
+  background-color: #202329;
+  color:#b6b6b6;
+  margin:  0px auto;
+}
+.foot_l
+{
+  display: flex;
+  padding-top: 60px;
+  justify-content: center;
+}
+.foot_l>p
+{
+  margin: 0px 20px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.foot_l>p:hover
+{
+  color: rgb(255, 152, 0);
+  cursor: pointer;
+}
+.foot_stat>p:hover
+{
+  color: rgb(255, 152, 0);
+  cursor: pointer;
+}
+.foot_stat
+{
+  display: flex;
+  font-size: 12px;
+  font-weight: 700;
+  justify-content: center;
+  margin: 7px 0px;
+}
+.foot_stat>p
+{
+  margin-right: 7px;
+}
+.round1
+{
+  height: 8px;
+  width: 8px;
+  background-color: #55cc44;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-right: 6px;
+}
+.foot_img
+{
+  display: flex;
+  justify-content: center;
+}
+.foot_logo
+{
+  /* display: flex; */
+  width: 40px;
+  height: 40px;
+}
+.depl
+{
+  margin: 0px;
+  font-size: 8px;
+  letter-spacing: 1px;
+}
+.cap_r
+{
+  padding-left: 30px;
+}
